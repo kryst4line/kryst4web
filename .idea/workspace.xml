@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5bbd2aa-61b3-444f-ad6e-415c3c234980" name="Changes" comment="First commit" />
+    <list default="true" id="f5bbd2aa-61b3-444f-ad6e-415c3c234980" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-console/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-theme-console/layouts/_default/baseof.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/hugo-theme-console" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
@@ -35,9 +39,9 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Hugo.Run Server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/hik4r/Documents/git/kryst4web/content/music/SticKEANEbush Symphony",
+    "last_opened_file_path": "C:/Users/hik4r/Documents/git/kryst4web/layouts/partials",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,11 +54,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hik4r\Documents\git\kryst4web\layouts\partials" />
+      <recent name="C:\Users\hik4r\Documents\git\kryst4web\layouts\_default" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\SticKEANEbush Symphony" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\Somewhere In The Fire" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\Machine Gun Business" />
-      <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\I Need A Desire" />
-      <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\Fainted Throne" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\assets" />
@@ -91,7 +95,7 @@
       <workItem from="1719213864148" duration="77000" />
       <workItem from="1719213948779" duration="10154000" />
       <workItem from="1719299695597" duration="16945000" />
-      <workItem from="1719386155299" duration="11139000" />
+      <workItem from="1719386155299" duration="12170000" />
     </task>
     <task id="LOCAL-00001" summary="Git ignore">
       <option name="closed" value="true" />
@@ -117,11 +121,42 @@
       <option name="project" value="LOCAL" />
       <updated>1719400460392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1719401162994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719401162994</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Git ignore" />
