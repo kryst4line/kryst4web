@@ -2,6 +2,7 @@ baseURL = 'https://dragon.gal/'
 languageCode = 'en-us'
 title = 'kryst4line'
 theme = 'hugo-theme-console'
+publishDir = "dist"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
