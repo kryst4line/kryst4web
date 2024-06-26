@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ if and (isset .Params "banner") .Params.banner }}
+<div class="flex flex-column flex-centered">
+    {{ $image := .Page.Resources.GetMatch .Params.banner }}
+        {{ with $image }}
+            {{ printf `<img src="%s" alt="%s" class="width-550px">` $image.RelPermalink .Title | safeHTML }}
+        {{ end }}
+    {{ if .Params.credits }}
+        <div class="flex justify-end width-550px" style="font-size: 0.8rem">
+            {{ if.Params.link }}
+                {{ printf `<span>Art by: </span>&nbsp;<a href="%s" class="font-bold">%s</a>` .Params.link .Params.credits | safeHTML }}
+            {{ else }}
+                {{ printf `<span>Art by: </span>&nbsp;<a class="font-bold">%s</a>` .Params.credits | safeHTML }}
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ if .Title }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+
+{{ .Content }}
+{{ end }}

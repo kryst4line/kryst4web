@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<div class="flex flex-centered justify-center flex-wrap" style="gap: 0 30px">
+    {{ if and (isset .Params "image") .Params.image }}
+        {{ $image := .Page.Resources.GetMatch .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "1000x" }}
+            {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image" style="max-width: 450px; aspect-ratio: 1 / 1; height: auto; min-width: 300px; flex: 1; object-fit: contain;">` $thumb.RelPermalink .Title | safeHTML }}
+        {{ end }}
+    {{ end }}
+
+    <div class="flex flex-column" style="gap: 15px; min-width: 300px; flex: 1;">
+        <h1 style="margin: 0; width: fit-content;">{{ .Page.Title }}</h1>
+
+        {{ if and (isset .Params "date") .Params.date }}
+            <div class="flex">
+                <span class="font-bold" style="margin-right: 10px">Release date: </span>
+                <span>{{ .Params.date | time.Format ":date_medium" }}</span>
+            </div>
+        {{ end }}
+
+        {{ if and (isset .Params "track1") .Params.track1 }}
+            <div class="flex flex-column">
+                <span class="font-bold" style="margin-right: 10px">Mixed tracks: </span>
+                <span>· {{ .Params.track1 }}</span>
+
+                {{ if and (isset .Params "track2") .Params.track2 }}
+                    <span>· {{ .Params.track2 }}</span>
+                {{ end }}
+
+                {{ if and (isset .Params "track3") .Params.track3 }}
+                    <span>· {{ .Params.track3 }}</span>
+                {{ end }}
+
+                {{ if and (isset .Params "track4") .Params.track4 }}
+                    <span>· {{ .Params.track4 }}</span>
+                {{ end }}
+            </div>
+        {{ end }}
+
+        {{ if and (isset .Params "link") .Params.link (isset .Params "linkname") .Params.linkname }}
+            <div class="flex">
+                <span class="font-bold" style="margin-right: 10px">Watch/Download on: </span>
+                <a href="{{ .Params.link }}">{{ .Params.linkname }}</a>
+
+                {{ if and (isset .Params "link2") .Params.link2 (isset .Params "linkname2") .Params.linkname2 }}
+                    <span>, </span>
+                    <a href="{{ .Params.link2 }}">{{ .Params.linkname2 }}</a>
+                {{ end }}
+
+                {{ if and (isset .Params "link3") .Params.link3 (isset .Params "linkname3") .Params.linkname3 }}
+                    <span>, </span>
+                    <a href="{{ .Params.link3 }}">{{ .Params.linkname3 }}</a>
+                {{ end }}
+            </div>
+        {{ end }}
+
+        {{ if and (isset .Params "audio") .Params.audio }}
+            {{ $audio := .Page.Resources.GetMatch .Params.audio }}
+            {{ with $audio }}
+                    <audio controls preload=metadata style="width: 100%; margin-bottom: 20px">
+                        <source type="audio/mp3" src="{{ $audio.RelPermalink }}">
+                        Your browser does not support the audio element.
+                    </audio>
+            {{ end }}
+        {{ end }}
+
+        {{ .Content }}
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,7 @@
+<div class="flex flex-centered justify-center flex-wrap" style="gap: 5em">
+  {{ $file := .Page.Resources.Get "chibi.png" }}
+  <img src="{{ $file.RelPermalink }}" alt="krystaline chibi" style="width: auto; max-width: 24em" >
+  <div style="flex: 1; min-width: 400px; max-width: 40em">
+    {{.Inner | markdownify}}
+  </div>
+</div>

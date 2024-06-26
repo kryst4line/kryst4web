@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<div style="height: calc(100vh - 137px - 67px - 75px)"
+     class="flex flex-centered justify-center"
+>
+    {{ $image := resources.Get "logo.png" }}
+    <img src="{{ $image.RelPermalink }}" alt="logo" style="width: auto; max-width: 60vmin;">
+</div>
+
+{{ end }}
