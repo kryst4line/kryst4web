@@ -1,4 +1,4 @@
-baseURL = 'https://dragon.gal/'
+baseURL = 'https://www.dragon.gal/'
 languageCode = 'en-us'
 title = 'kryst4line'
 theme = 'hugo-theme-console'
@@ -13,10 +13,15 @@ publishDir = "dist"
   animateStyle = "animated zoomIn fast"
 
   custom_css = ["css/style.css"]
+  favicon = ["favicon.png"]
 
 [[params.navlinks]]
   name = "about/"
   url = "about/"
+
+[[params.navlinks]]
+  name = "links/"
+  url = "links/"
 
 [[params.navlinks]]
   name = "projects/"
@@ -25,7 +30,3 @@ publishDir = "dist"
 [[params.navlinks]]
   name = "music/"
   url = "music/"
-
-[[params.navlinks]]
-  name = "links/"
-  url = "links/"

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5bbd2aa-61b3-444f-ad6e-415c3c234980" name="Changes" comment="added: custom css file on hugo config file">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="f5bbd2aa-61b3-444f-ad6e-415c3c234980" name="Changes" comment="updated: compile folded, readme file">
+      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/hik4r/Documents/git/kryst4web/layouts/partials",
+    "last_opened_file_path": "C:/Users/hik4r/Documents/git/kryst4web/static",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -53,11 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hik4r\Documents\git\kryst4web\static" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\layouts\partials" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\layouts\_default" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\SticKEANEbush Symphony" />
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\Somewhere In The Fire" />
-      <recent name="C:\Users\hik4r\Documents\git\kryst4web\content\music\Machine Gun Business" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hik4r\Documents\git\kryst4web\assets" />
@@ -94,7 +96,7 @@
       <workItem from="1719213864148" duration="77000" />
       <workItem from="1719213948779" duration="10154000" />
       <workItem from="1719299695597" duration="16945000" />
-      <workItem from="1719386155299" duration="12524000" />
+      <workItem from="1719386155299" duration="14148000" />
     </task>
     <task id="LOCAL-00001" summary="Git ignore">
       <option name="closed" value="true" />
@@ -136,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719401793687</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated: compile folded, readme file">
+      <option name="closed" value="true" />
+      <created>1719402086719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719402086719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +179,7 @@
     <MESSAGE value="Git ignore" />
     <MESSAGE value="First commit" />
     <MESSAGE value="added: custom css file on hugo config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added: custom css file on hugo config file" />
+    <MESSAGE value="updated: compile folded, readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated: compile folded, readme file" />
   </component>
 </project>
