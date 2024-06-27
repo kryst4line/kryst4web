@@ -70,3 +70,5 @@ bower_components
 
 .hugo_build.lock
 /resources/_gen
+
+/.idea

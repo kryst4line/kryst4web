@@ -1,4 +1,4 @@
-baseURL = 'https://www.dragon.gal/'
+baseURL = 'https://dragon.gal/'
 languageCode = 'en-us'
 title = 'kryst4line'
 theme = 'hugo-theme-console'
